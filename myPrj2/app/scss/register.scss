@@ -1,0 +1,142 @@
+@import url("/css/base/reset.css");
+html,body{
+	height: 100%;
+	background: url(/img/register_img/bg.png);
+}
+form{
+	width:480px;
+	height:750px;
+	background: white;
+	margin: 30px auto;
+	.text{
+		width:480px;
+		height:185px;
+		border-bottom: 1px solid #ddd;
+		font-size: 12px;
+		text-align:center;
+		margin-bottom:15px;
+		img{
+			height:87px;
+		}
+		p:nth-child(2){
+			font-size: 18px;
+			font-weight: bold;
+			margin-bottom: 8px;
+		}
+		.or{
+			width:80px;
+			height:20px;
+			font-size: 20px;
+			color: #8d8d8d;
+			margin: 0 auto;
+			background: white;
+		}
+	}
+}
+form #infor{
+		width:480px;
+		height:500px;
+		text-align: center;
+		.kk{
+			position: relative;
+			margin:38px;
+			input{
+				border: 0;
+				opacity: .8;
+				border-radius: 2px;
+				border: 1px solid #ddd;
+				width:380px;
+				height: 40px;
+				text-indent: 15px;
+				}
+			span{
+				display: block;
+				width:200px;
+				height:30px;
+				text-align: center;
+				line-height: 30px;
+				color: red;
+				position:absolute;
+				top:38px;
+				left: -17px;
+				display: none;
+			}
+			i{
+				font-size: 25px;
+				color: #8D8D8D;
+				position: absolute;
+				top:-3px;
+				right:-18px;
+				display: none;
+			}
+		}
+		.btn{
+			width:385px;
+			height:40px;
+			margin: 0 auto;
+			margin-bottom: 30px;
+			.boy{
+					width:180px;
+					height:40px;
+					border:1px solid #ddd;
+					background: white;
+					line-height: 40px;
+					cursor: pointer;
+					color:#8d8d8d;
+					float: left;
+			}
+			.girl{
+					width:180px;
+					height:40px;
+					border:1px solid #ddd;
+					background: white;
+					line-height: 40px;
+					cursor: pointer;
+					color:#8d8d8d;
+					float: left;
+			}
+			.boy{
+				margin-right: 20px;
+			}
+		}
+		.check{
+			width:290px;
+			height:30px;
+			font-size: 12px;
+			line-height: 30px;
+			margin: 0 auto;
+			margin-bottom: 20px;
+			#box{
+				width:22px;
+				height:22px;
+				border:1px solid #ddd;
+				background: white;
+				opacity: .8;
+			}
+		}
+		p{
+			font-size: 12px;
+			margin-bottom: 9px;
+			a{
+				text-decoration: underline;
+			}
+		}
+		#sub_btn{
+			width:380px;
+			height:40px;
+			background: black;
+			color: white;
+			font-size: 14px;
+			font-weight: bold;
+			cursor: pointer;
+		}
+}
+.query{
+			width:150px;
+			height:20px;
+			margin: 0 auto;
+			font-size: 13px;
+			a{
+				text-decoration: underline;
+			}
+		}

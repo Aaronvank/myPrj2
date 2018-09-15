@@ -1,0 +1,237 @@
+header{
+	width:100%;
+	height:108px;
+	z-index: 999;
+}
+//head_top
+.header_top{
+	width:100%;
+	height:39px;
+	background: white;
+	border-bottom: 1px solid #ddd;
+}
+.header_top .wrap{
+	width:1461px;
+	height:39px;
+	margin:0 auto;
+}
+.header_top .wrap .logo_left{
+	width:302px;
+	height:39px;
+	float: left;
+}
+.header_top .wrap .logo_left li a{
+	color:#8d8d8d;
+}
+.header_top .wrap .logo_left li:first-child{
+	width:93px;
+	height:39px;
+	border-right: 1px solid #ddd;
+	line-height: 39px;
+	float: left;
+}
+.header_top .wrap .logo_left li:first-child:hover a{
+	color:black;
+}
+.header_top .wrap .logo_left li:nth-child(2){
+	width:78px;
+	height:39px;
+	float: left;
+	line-height: 39px;
+	text-align: center;
+	border-right: 1px solid #ddd;
+}
+.header_top .wrap .logo_left li:nth-child(2):hover a{
+	color:#a6252a;
+}
+.header_top .wrap .logo_left li:last-child{
+	width:121px;
+	height:39px;
+	float: left;
+	line-height: 39px;
+	text-align: center;
+	border-right: 1px solid #ddd;
+}
+.header_top .wrap .logo_left li:last-child:hover a{
+	color:black;
+}
+.header_top .wrap .logo_right{
+	width:294px;
+	height:39px;
+	float: right;
+}
+.header_top .wrap .logo_right>li{
+	float: left;
+	line-height: 39px;
+}
+.header_top .wrap .logo_right>li a{
+	color:#8d8d8d;
+	font-size: 12px;
+}
+.header_top .wrap .logo_right>li:hover a{
+	color:black;
+}
+.header_top .wrap .logo_right>li:first-child{
+	width:146px;
+}
+.header_top .wrap .logo_right>li:nth-child(2){
+	width:50px;
+	text-align: center;
+	line-height: 36px;
+	position: relative;
+}
+.header_top .wrap .logo_right>li:nth-child(2):hover{
+	border-bottom: 2px solid black;
+	
+}
+.header_top .wrap .logo_right>li:nth-child(2):hover .help{
+	display: block;
+}
+.header_top .wrap .logo_right>li:nth-child(3){
+	width:36px;
+}
+.header_top .wrap .logo_right>li:nth-child(3)>a>i{
+	font-size: 18px !important;
+}
+.header_top .wrap .logo_right>li:nth-child(4){
+	width:43px;
+}
+.header_top .wrap .logo_right>li:nth-child(4)>a>i{
+	font-size: 18px !important;
+}
+//帮助下面的小弹框
+.header_top .wrap .help{
+	width:105px;
+	height:235px;
+	padding-top:22px ;
+	border:1px solid #ddd;
+	text-align: center;
+	background: white;
+	position: absolute;
+	z-index:2;
+	right:-28px;
+	top:38px;
+	font-size: 12px;
+	display: none;
+}
+.header_top .wrap .help li{
+	height:20px;
+}
+.header_top .wrap .help li:hover a{
+	color:#8d8d8d;
+}
+//header-botoom
+.outer{
+	width:100%;
+	height:69px;
+	border-bottom: 1px solid #ddd;
+	background: white;
+}
+.header_bottom{
+	width:1461px;
+	height:67px;
+	margin: 0 auto;
+}
+.header_bottom .logo{
+	width:63px;
+	height:67px;
+	float: left;
+	margin-right: 415px;
+}
+.header_bottom .logo a img{
+	width:100%;
+	height:100%;
+}
+.header_bottom .list{
+	width:540px;
+	height:69px;
+	float: left;
+}
+.header_bottom .list li{
+	float: left;
+	width:73px;
+	height:69px;
+	line-height: 69px;
+	text-align: center;
+}
+.header_bottom .list li:hover{
+	border-bottom:2px solid #111111 ;
+}
+.header_bottom .list li a{
+	color: #111111;
+}
+.header_bottom .list li:nth-child(5){
+	width:138px;
+	height:69px;
+}
+.header_bottom .list li:nth-child(5) a span{
+	font-weight: bold;
+}
+.header_bottom .list li:nth-child(6){
+	width:108px;
+	height:69px;
+}
+//搜索框
+.header_bottom #search{
+	width:195px;
+	height:40px;
+	float: right;
+	margin-top: 15px;
+	position: relative;
+}
+.header_bottom #search input{
+	width:195px;
+	height:40px;
+	border:1px solid #ddd;
+	border-radius: 5px;	
+	text-indent: 3em;
+}
+.header_bottom #search i{
+	font-size: 18px !important;
+	position: absolute;
+	left:18px;
+	top:10px;
+}
+header .detail{
+	width:100%;
+	height:527px;
+	background: white;
+	position: absolute;
+	z-index: 100;
+	display: none;
+	.wrap{
+		width:934px;
+		height:527px;
+		// border:1px solid;
+		margin: 0 auto;
+		box-sizing: border-box;
+		padding-top: 40px;
+		padding-left: 132px;
+		ul{
+			width:160px;
+			height:425px;
+			float: left;
+			font-size: 12px;
+			font-family: "宋体";
+			li{
+				line-height: 30px;
+			}
+			li:first-child{
+				font-size: 21px;
+			}
+			li:hover a{
+				color:#ddd;
+			}
+		}
+		ul:first-child{
+			width:130px;
+			margin-right: 30px;
+			border-right: 1px solid #ddd;
+		}
+		ul:nth-child(3){
+			width:130px;
+			margin-right: 30px;
+			border-right: 1px solid #ddd;
+		}
+	}
+}

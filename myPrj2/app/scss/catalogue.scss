@@ -1,0 +1,149 @@
+@import url("/css/base/reset.css");
+@import url("/css/base/header.css");
+@import url("/css/base/footer.css");
+@import url("/libs/iconfont.css");
+
+//打折文字
+.text{
+	width:100%;
+	height:58px;
+	background: #f7f7f7;
+	border-bottom: 1px solid #ddd;
+}
+.text .wrap{
+	width:1461px;
+	height:58px;
+	overflow: hidden;
+}
+.text .wrap p{
+	width:305px;
+	height:58px;
+	font-size: 12px;
+	float: left;
+	margin-top: 18px;
+	margin-left: 585px;
+	text-align: center;
+}
+.text .wrap a{
+	display: block;
+	height:58px;
+	line-height: 58px;
+	float: left;
+	font-size: 12px;
+	text-decoration: underline;
+}
+.text .wrap a:hover{
+	color:#88382f;
+}
+
+//主体部分
+.main{
+	width:100%;
+	height:2287px;
+	background: white;
+	.wrap{
+		width:1457px;
+		height:2287px;
+		margin: 0 auto;
+		.main_left{
+			width:220px;
+			height:575px;
+			float: left;
+			margin-right: 48px;
+			margin-left: 40px;
+			margin-top: 40px;
+			// overflow: hidden;
+		}
+		.main_right{
+			width:1000px;
+			height:2150px;
+			float: left;
+		}
+	}
+}
+.main_left ul{
+	font-size: 12px;
+	li{
+		line-height: 32px;	
+	}
+	li:hover a{
+		color:#ddd;
+	}
+}
+.main_left ul:first-child{
+	height: 200px;
+	border-bottom: 1px solid #ddd;
+	// border-top: 1px solid #ddd;
+	margin-bottom: 30px;
+	li{
+		margin-left: 20px;
+	}
+	li:first-child{
+		font-weight: bold;
+		margin-left: 0;
+	}
+}
+.main_right{
+	.title{
+		width:1000px;
+		height:100px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		p{	
+			font-size: 21px;
+			// float: left;
+		}
+		select{
+			width:125px;
+			height:43px;
+			border:1px solid #ddd;
+			background: white;
+			font-family: "微软雅黑";
+			border-radius: 5px;
+			font-size: 13px;
+			text-align: center;
+		}
+	}
+}
+.main_right dl{
+	width:250px;
+	height:324px;
+	// border:1px solid #ddd;
+	box-sizing: border-box;
+	padding: 12px;
+	margin-bottom: 30px;
+	float: left;
+	a{
+		display: block;
+		width:226px;
+		height:300px;
+		dt{
+			width:220px;
+			height:220px;
+			margin-bottom: 17px;
+			img{
+				width:220px;
+				height:220px;
+			}
+		}
+		dd{
+			p{
+				font-size: 12px;
+			}
+			.ff{
+				font-weight: bold;
+			}
+			.ww{
+				color: #666666;
+			}
+			p:first-child{
+				padding-bottom: 6px;
+				border-bottom: 1px solid #ddd;
+			}
+		}
+	}
+}
+.main_right dl:hover{
+	border: 1px solid #ddd;
+}

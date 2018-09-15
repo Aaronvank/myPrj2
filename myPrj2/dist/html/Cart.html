@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="/css/cart.css"/>
+		<script src="/libs/require.js" data-main="/js/cart.js"></script>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<header>
+			<div class="content">
+				<a href="http://localhost:2333/index.html?;" class="h_left"><img src="/img/nike.png" ></a>
+				<ul class="h_right">
+					<li><a href="javascript:;"><i class="iconfont icon-gouwuche"></i></a><span id="num"></span></li>
+					<li><a href="/html/register.html">立即加入</a></li>
+					<li><a href="/html/login.html">登录</a></li>
+				</ul>
+			</div>
+		</header>
+		<!-- 主体 -->
+		<main>
+			<div class="wrap">
+				<div class="main_top">
+					<div class="go">
+						<a href="/html/catalogue.html">
+							<img src="/img/cart_img/sj.png" >
+							继续购物
+						</a>
+					</div>
+					<ul class="go_right">
+						<li><a href="">给予反馈</a></li>
+						<li>
+								<img src="/img/cart_img/phone.png" >
+								<span>400-880-6453(手机用户)</span>
+						</li>
+						<li>
+								<img src="/img/cart_img/phone.png" >
+								<span>800-820-8265(固话用户)</span>
+						</li>
+						<li>
+							<a href="">
+								<img src="/img/cart_img/qry.png" >
+								<span>在线咨询</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="main_center">
+					<div class="txt">
+						<div class="txtt">
+							<p>自2018年09月05日起，您在本网站购买的商品(以付款时间为准)，如果所购商品仍是原购买时的状况、并符合二次销售</p>
+							<p>的条件，可以在收货日期起14天内以任何理由或无理由退换所购商品。</p>
+							<p>亲爱的顾客，近期有不法分子假冒各大品牌工作人员进行诈骗活动，为了您的账户和财产安全，请勿轻信此类信息，谨</p>
+							<p>防被骗。</p>
+						</div>
+						<div class="txtc">
+							<p>成为NIKE+会员，享受每笔订单免费配送，和14天无理由退换货服</p>
+							<p>务。使用优惠券码，需以 NIKEPLUS 账户登录。</p>
+							<p><a href="/html/register.html">立即加入NIKEPLUS</a></p>
+							<p>非会员每笔订单需达到399元即可享受免费配送服务。上海地区（崇明岛除外）及江浙部分地区用户上午11点前完成支付</p>
+							<p>的订单可当日送达，23点前支付的订单可次日送达。详情请参考<a href="">配送方式</a>。</p>
+						</div>
+						<div class="txtb">
+							<p>您的购物车 (<span id="amount"></span>)</p>
+<!-- 							<p>您的购物车中没有商品。</p>
+							<p>如果您已有帐户，<a href="/html/login.html">请登录</a>以查看您之前添加的商品。</p> -->
+						</div>
+						<div id="ourProducts">
+							<div class="op_img"><img src="/img/cart_img/crazy.png" ></div>
+							<div class="op_detail">
+								<a href="">Air Jordan 1 Low 男子运动鞋</a>
+								<p>款式#: <span>553558-109</span></p>
+								<p>尺寸:<span> 42.5</span></p>
+								<p>颜色:<span>白色/白色/白金色</span></p>
+								<p>数量<span> 1 @  ￥<i>799.00</i></span></p>
+								<p><span>* </span>促销活动可能不包含该商品。  <a href="">更多信息</a></p>
+								<button class="mr">删除</button>
+								<div class="edit"><button class="minus">-</button><span class="num">1</span><button class="add">+</button></div>
+								<p class="gift"><a href="">添加礼品选项</a></p>
+								<p id="price">￥<span>799.00</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="count_infor">
+						<form class="c_box">
+							<p>小结信息</p>
+							<p>
+								<span>是否有促销码？</span>
+								<input type="text" name="" id="" value="" />
+								<input type="button" name="" id="" value="确定" />
+							</p>
+							<p><i>订单商品总额</i><span>￥</span><span id="total">0.00</span></p>
+							<p><i>实际支付运费</i><span>￥</span><span id="tans">0.00</span></p>
+							<p><i>订单总计</i><span>￥</span><span id="pay">0.00</span></p>
+							<input type="submit" name="" id="c_sub" value="结算" />
+						</form>
+						<div class="c_send">
+							<p>免费配送服务</p>
+							<p>再消费￥399.00 即可享受免费配送服务。不包含礼品<br>卡消费金额</p>
+						</div>
+						<div class="c_help">
+							<p>需要帮助吗？</p>
+							<p>1.<a href="">如何确保订单安全？</a></p>
+							<p>2.<a href="">我可以使用什么付款方式？</a></p>
+							<p>3.<a href="">如何进行退换货？</a></p>
+							<p>4.<a href="">如何使用自提业务？</a></p>
+							<p><a href="">更多帮助</a></p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="main_bottom">
+					<h1>您可能还喜欢</h1>
+					<dl>
+						<a href="">
+							<dt><img src="/img/catalogue_img/aj2.png" ></dt>
+							<dd><p class="ff">2色</p>
+								<p class="ff">Air Jordan 1 Retro High PREM</p>
+								<p class="ww">复刻男子运动鞋</p>
+								<p class="ww">&nbsp;￥1299</p>
+							</dd>
+						</a>
+					</dl>
+					<dl>
+						<a href="">
+							<dt><img src="/img/cart_img/tx.png" ></dt>
+							<dd><p class="ff">2色</p>
+								<p class="ff">Air Jordan 1 Retro High PREM</p>
+								<p class="ww">复刻男子运动鞋</p>
+								<p class="ww">&nbsp;￥1299</p>
+							</dd>
+						</a>
+					</dl>
+					<dl>
+						<a href="">
+							<dt><img src="/img/catalogue_img/aj6.png" ></dt>
+							<dd><p class="ff">2色</p>
+								<p class="ff">Air Jordan 1 Retro High PREM</p>
+								<p class="ww">复刻男子运动鞋</p>
+								<p class="ww">&nbsp;￥1299</p>
+							</dd>
+						</a>
+					</dl>
+					<dl>
+						<a href="">
+							<dt><img src="/img/catalogue_img/aj7.png" ></dt>
+							<dd><p class="ff">2色</p>
+								<p class="ff">Air Jordan 1 Retro High PREM</p>
+								<p class="ww">复刻男子运动鞋</p>
+								<p class="ww">&nbsp;￥1299</p>
+							</dd>
+						</a>
+					</dl>
+				</div>
+			</div> -->
+		</main>
+		<!-- 尾部 -->
+		<footer>
+			<div class="wrap">
+				<div class="contact">
+					<ul>
+						<li><a href="">电子礼品卡</a></li>
+						<li><a href="">附近商店</a></li>
+						<li><a href="">订阅电子邮件</a></li>
+						<li><a href="">注册NIKE会员</a></li>
+					</ul>
+					<ul>
+						<li><a href="">获取帮助</a></li>
+						<li><a href="">订单状态</a></li>
+						<li><a href="">配送方式</a></li>
+						<li><a href="">退换货</a></li>
+						<li><a href="">付款选项</a></li>
+						<li><a href="">联系我们</a></li>
+					</ul>
+					<div class="icon">
+						<p>付款方式</p>
+						<div class="icon_pic">
+							<img src="/img/cart_img/zfb.png" >
+							<img src="/img/cart_img/wx.png" >
+							<img src="/img/cart_img/online.png" >
+						</div>
+						<p>接受货到付款</p>
+						<div><img src="/img/cart_img/entrust.png" ></div>
+					</div>
+				</div>
+				<div class="links">
+					<dl>
+						<dt><a href=""><img src="/img/cn_sml.png" ></a></dt>
+						<dd>China<span>@ 2018Nike. lnc. 保留所有权利</span></dd>
+					</dl>
+					<ul>
+						<li><a href="">沪ICP备14009339号</a></li>
+						<li><a href="">使用条款</a></li>
+						<li><a href="">销售条款</a></li>
+						<li><a href="">隐私政策</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

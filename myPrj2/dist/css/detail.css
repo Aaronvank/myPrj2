@@ -1,0 +1,220 @@
+@charset "UTF-8";
+@import url("/css/base/reset.css");
+@import url("/css/base/header.css");
+@import url("/css/base/footer.css");
+@import url("/libs/iconfont.css");
+.db {
+  display: block; }
+
+main {
+  width: 100%;
+  height: 2168px; }
+  main .wrap {
+    width: 1334px;
+    height: 2168px;
+    margin: 0 auto; }
+
+main .wrap .d_top {
+  width: 1334px;
+  height: 1714px;
+  padding-top: 44px; }
+  main .wrap .d_top .d_pic {
+    width: 880px;
+    height: 1326px;
+    float: left; }
+    main .wrap .d_top .d_pic p {
+      width: 430px;
+      height: 430px;
+      float: left;
+      margin-right: 10px;
+      margin-bottom: 10px; }
+      main .wrap .d_top .d_pic p img {
+        width: 430px;
+        height: 430px; }
+  main .wrap .d_top .d_introduce {
+    width: 379px;
+    height: 1550px;
+    float: right; }
+    main .wrap .d_top .d_introduce .intro_pic {
+      height: 690px; }
+
+main .wrap .d_top .d_introduce #more_infor p:nth-child(1) {
+  margin-top: 12px;
+  font-size: 14px;
+  margin-bottom: 10px; }
+  main .wrap .d_top .d_introduce #more_infor p:nth-child(1) span {
+    float: right; }
+
+main .wrap .d_top .d_introduce #more_infor p:nth-child(2) {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 70px; }
+
+main .wrap .d_top .d_introduce #more_infor p:nth-child(3) {
+  height: 143px;
+  margin-bottom: 38px; }
+  main .wrap .d_top .d_introduce #more_infor p:nth-child(3) img {
+    width: 69px;
+    height: 69px;
+    cursor: pointer; }
+
+main .wrap .d_top .d_introduce p:nth-child(2) {
+  font-size: 15px;
+  margin-bottom: 20px; }
+  main .wrap .d_top .d_introduce p:nth-child(2) span {
+    color: #666666;
+    float: right; }
+
+main .wrap .d_top .d_introduce .tab {
+  height: 220px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px; }
+  main .wrap .d_top .d_introduce .tab div {
+    width: 70px;
+    height: 46px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 14px;
+    cursor: pointer; }
+  main .wrap .d_top .d_introduce .tab div:hover {
+    background: #000000;
+    color: white;
+    opacity: .8; }
+
+main .wrap .d_top .d_introduce p:last-child {
+  height: 50px; }
+  main .wrap .d_top .d_introduce p:last-child #btn {
+    width: 302px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-family: "微软雅黑";
+    font-size: 15px;
+    border: 0;
+    border-radius: 2px;
+    margin-right: 1px;
+    vertical-align: top;
+    cursor: pointer; }
+  main .wrap .d_top .d_introduce p:last-child span {
+    display: inline-block;
+    width: 74px;
+    height: 50px;
+    border-radius: 2px;
+    background: black;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px; }
+  main .wrap .d_top .d_introduce p:last-child span:hover {
+    color: red; }
+
+main .wrap .d_top .d_introduce .free {
+  cursor: pointer;
+  border-top: 1px solid #ddd;
+  line-height: 82px;
+  font-size: 18px; }
+  main .wrap .d_top .d_introduce .free span {
+    float: right; }
+  main .wrap .d_top .d_introduce .free > .f_dt {
+    height: 50px;
+    line-height: 26px;
+    font-size: 14px;
+    display: none; }
+    main .wrap .d_top .d_introduce .free > .f_dt.db {
+      display: block; }
+
+main .wrap .d_top .d_introduce .evaluate {
+  height: 82px;
+  cursor: pointer;
+  border-top: 1px solid #ddd;
+  line-height: 82px;
+  font-size: 18px; }
+  main .wrap .d_top .d_introduce .evaluate span {
+    float: right; }
+
+main .wrap .d_top .d_introduce .more {
+  cursor: pointer;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  line-height: 82px;
+  font-size: 18px; }
+  main .wrap .d_top .d_introduce .more span {
+    float: right; }
+
+main .wrap .d_top .d_introduce .speak {
+  height: 66px;
+  line-height: 66px;
+  font-size: 15px;
+  margin-bottom: 45px; }
+  main .wrap .d_top .d_introduce .speak a {
+    text-decoration: underline; }
+
+main .wrap .d_top .d_introduce .explain {
+  font-size: 12px; }
+  main .wrap .d_top .d_introduce .explain div:first-child {
+    margin-bottom: 24px; }
+
+main .wrap .d_top .d_introduce .intro_txt {
+  height: 280px;
+  overflow: hidden; }
+  main .wrap .d_top .d_introduce .intro_txt i {
+    font-size: 15px;
+    height: 29px;
+    display: block;
+    height: 100px;
+    width: 370px;
+    line-height: 28px; }
+  main .wrap .d_top .d_introduce .intro_txt ul {
+    height: 42px;
+    margin-top: 40px;
+    margin-bottom: 34px; }
+    main .wrap .d_top .d_introduce .intro_txt ul li {
+      height: 24px;
+      font-size: 15px; }
+  main .wrap .d_top .d_introduce .intro_txt p:nth-child(3) {
+    font-size: 15px; }
+    main .wrap .d_top .d_introduce .intro_txt p:nth-child(3) a {
+      text-decoration: underline; }
+    main .wrap .d_top .d_introduce .intro_txt p:nth-child(3) a:hover {
+      color: #FA5400; }
+
+main .wrap .d_bottom {
+  width: 973px;
+  height: 370px;
+  margin: 0 auto; }
+  main .wrap .d_bottom h1 {
+    width: 112px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 18px; }
+  main .wrap .d_bottom dl {
+    width: 240px;
+    height: 324px;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 30px;
+    float: left; }
+    main .wrap .d_bottom dl a {
+      display: block;
+      width: 226px;
+      height: 300px; }
+      main .wrap .d_bottom dl a dt {
+        width: 220px;
+        height: 220px;
+        margin-bottom: 17px; }
+        main .wrap .d_bottom dl a dt img {
+          width: 220px;
+          height: 220px; }
+      main .wrap .d_bottom dl a dd p {
+        font-size: 12px; }
+      main .wrap .d_bottom dl a dd .ff {
+        font-weight: bold; }
+      main .wrap .d_bottom dl a dd .ww {
+        color: #666666; }
+      main .wrap .d_bottom dl a dd p:first-child {
+        margin-bottom: 6px; }
+  main .wrap .d_bottom dl:hover {
+    border: 1px solid #ddd; }

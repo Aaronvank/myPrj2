@@ -1,0 +1,574 @@
+@charset "UTF-8";
+@import url("/css/base/reset.css");
+@import url("/libs/iconfont.css");
+header {
+  width: 100%;
+  height: 52px;
+  background: white; }
+  header .content {
+    width: 1471px;
+    height: 52px;
+    margin: 0 auto; }
+
+header .content .h_left {
+  display: block;
+  float: left;
+  width: 250px;
+  height: 52px; }
+  header .content .h_left img {
+    width: 47px;
+    height: 47px; }
+
+header .content .h_right {
+  width: 205px;
+  height: 52px;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  header .content .h_right li {
+    font-size: 14px; }
+  header .content .h_right li:hover a {
+    color: #ddd; }
+
+header .content .h_right li:first-child > a > i {
+  font-size: 18px !important; }
+
+header .content .h_right li:first-child #num {
+  color: #fa5400; }
+
+main {
+  width: 100%;
+  min-height: 1400px;
+  background: white; }
+  main .wrap {
+    width: 1475px;
+    min-height: 1400px;
+    margin: 0 auto;
+    position: relative; }
+
+main .wrap .main_top {
+  width: 1475px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  main .wrap .main_top .go a {
+    font-size: 12px;
+    text-decoration: underline; }
+  main .wrap .main_top .go a:hover {
+    color: #f15401; }
+  main .wrap .main_top .go_right {
+    width: 508px;
+    height: 19px; }
+    main .wrap .main_top .go_right li {
+      float: left;
+      font-size: 12px;
+      margin-right: 20px; }
+    main .wrap .main_top .go_right li:nth-child(1) {
+      width: 49px;
+      height: 26px;
+      line-height: 30px; }
+      main .wrap .main_top .go_right li:nth-child(1) a {
+        text-decoration: underline; }
+      main .wrap .main_top .go_right li:nth-child(1) a:hover {
+        color: #f15401; }
+    main .wrap .main_top .go_right li:nth-child(2) {
+      width: 160px;
+      height: 26px; }
+      main .wrap .main_top .go_right li:nth-child(2) span {
+        display: inline-block;
+        width: 140px;
+        height: 12px;
+        margin-left: 10px;
+        top: 27px;
+        position: absolute; }
+    main .wrap .main_top .go_right li:nth-child(3) {
+      width: 160px;
+      height: 26px; }
+      main .wrap .main_top .go_right li:nth-child(3) span {
+        display: inline-block;
+        width: 140px;
+        height: 12px;
+        margin-left: 10px;
+        top: 27px;
+        position: absolute; }
+    main .wrap .main_top .go_right li:nth-child(4) {
+      width: 78px;
+      height: 26px;
+      margin-right: 0; }
+      main .wrap .main_top .go_right li:nth-child(4) span {
+        display: inline-block;
+        text-decoration: underline;
+        width: 140px;
+        height: 12px;
+        top: 27px;
+        position: absolute; }
+      main .wrap .main_top .go_right li:nth-child(4) span:hover {
+        color: #f15401; }
+
+main .wrap .main_center {
+  width: 994px;
+  min-height: 850px;
+  margin: 0 auto; }
+  main .wrap .main_center .txt {
+    width: 673px;
+    min-height: 850px;
+    margin-right: 17px;
+    float: left; }
+    main .wrap .main_center .txt .txtt {
+      width: 672px;
+      height: 123px;
+      background: #eeeeee;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      padding-left: 18px;
+      padding-top: 20px;
+      color: #666666; }
+      main .wrap .main_center .txt .txtt p {
+        font-size: 12px; }
+      main .wrap .main_center .txt .txtt P:nth-child(2) {
+        margin-bottom: 23px; }
+    main .wrap .main_center .txt .txtc {
+      width: 672px;
+      height: 162px;
+      background: #eeeeee;
+      margin-bottom: 20px;
+      padding-left: 18px;
+      padding-top: 20px;
+      box-sizing: border-box;
+      padding-left: 18px;
+      padding-top: 20px;
+      color: #666666; }
+      main .wrap .main_center .txt .txtc p {
+        font-size: 12px; }
+      main .wrap .main_center .txt .txtc p:first-child {
+        letter-spacing: 2px;
+        font-size: 17px; }
+      main .wrap .main_center .txt .txtc p:nth-child(2) {
+        letter-spacing: 2px;
+        font-size: 17px; }
+      main .wrap .main_center .txt .txtc p:nth-child(3) {
+        font-size: 17px;
+        margin-left: 225px;
+        margin-bottom: 16px; }
+        main .wrap .main_center .txt .txtc p:nth-child(3) a {
+          color: #fd5300;
+          text-decoration: underline; }
+      main .wrap .main_center .txt .txtc p:nth-child(5) a {
+        color: #666666;
+        text-decoration: underline; }
+      main .wrap .main_center .txt .txtc p:nth-child(5) a:hover {
+        color: #fd5300; }
+    main .wrap .main_center .txt .txtb {
+      width: 672px;
+      height: 60px; }
+      main .wrap .main_center .txt .txtb p:first-child {
+        width: 672px;
+        height: 60px;
+        background: #eeeeee;
+        box-sizing: border-box;
+        padding-left: 18px;
+        padding-top: 20px;
+        font-size: 17px; }
+      main .wrap .main_center .txt .txtb P:nth-child(2) {
+        margin-top: 10px;
+        margin-left: 18px;
+        font-size: 12px;
+        font-weight: bold;
+        color: #666666; }
+      main .wrap .main_center .txt .txtb P:nth-child(3) {
+        margin-left: 18px;
+        font-size: 12px;
+        color: #666666; }
+        main .wrap .main_center .txt .txtb P:nth-child(3) a {
+          text-decoration: underline;
+          color: #666666; }
+        main .wrap .main_center .txt .txtb P:nth-child(3) a:hover {
+          color: black; }
+    main .wrap .main_center .txt #ourProducts {
+      width: 672px;
+      height: 280px; }
+      main .wrap .main_center .txt #ourProducts .op_img {
+        width: 188px;
+        height: 280px;
+        float: left; }
+        main .wrap .main_center .txt #ourProducts .op_img img {
+          width: 150px;
+          height: 100px;
+          margin-top: 70px; }
+      main .wrap .main_center .txt #ourProducts .op_detail {
+        width: 482px;
+        height: 280px;
+        float: left;
+        overflow: hidden;
+        position: relative; }
+        main .wrap .main_center .txt #ourProducts .op_detail p {
+          font-size: 12px;
+          font-weight: bold;
+          margin-bottom: 3px; }
+          main .wrap .main_center .txt #ourProducts .op_detail p span {
+            font-weight: normal;
+            color: #666666; }
+        main .wrap .main_center .txt #ourProducts .op_detail a:first-child {
+          display: block;
+          text-decoration: underline;
+          margin-top: 31px;
+          font-size: 12px;
+          font-weight: bold;
+          margin-bottom: 15px; }
+        main .wrap .main_center .txt #ourProducts .op_detail p:nth-child(6) {
+          font-size: 11px;
+          margin-top: 9px;
+          font-weight: normal;
+          margin-bottom: 45px; }
+          main .wrap .main_center .txt #ourProducts .op_detail p:nth-child(6) span {
+            color: #fa5400; }
+          main .wrap .main_center .txt #ourProducts .op_detail p:nth-child(6) a {
+            text-decoration: underline; }
+          main .wrap .main_center .txt #ourProducts .op_detail p:nth-child(6) a:hover {
+            color: #fa5400; }
+        main .wrap .main_center .txt #ourProducts .op_detail button {
+          width: 138px;
+          height: 30px;
+          border: 1px solid #ddd;
+          background: #f7f7f7;
+          cursor: pointer;
+          font-size: 13px;
+          font-weight: 500;
+          font-family: "微软雅黑"; }
+        main .wrap .main_center .txt #ourProducts .op_detail .mr {
+          margin-right: 10px; }
+        main .wrap .main_center .txt #ourProducts .op_detail .edit {
+          width: 100px;
+          height: 30px;
+          border: 1px solid #666;
+          background: #f7f7f7;
+          margin-right: 10px;
+          float: left; }
+          main .wrap .main_center .txt #ourProducts .op_detail .edit .minus {
+            display: inline-block;
+            width: 30px;
+            height: 28px;
+            text-align: center;
+            line-height: 28px;
+            background: black;
+            color: white;
+            cursor: pointer;
+            float: left;
+            opacity: .8;
+            border: 0; }
+          main .wrap .main_center .txt #ourProducts .op_detail .edit .add {
+            display: inline-block;
+            width: 30px;
+            height: 28px;
+            text-align: center;
+            line-height: 28px;
+            background: black;
+            color: white;
+            float: right;
+            opacity: .8;
+            cursor: pointer;
+            border: 0; }
+          main .wrap .main_center .txt #ourProducts .op_detail .edit .num {
+            display: inline-block;
+            width: 38px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px; }
+        main .wrap .main_center .txt #ourProducts .op_detail > .gift > a {
+          color: #666666;
+          font-size: 11px;
+          margin-bottom: 0px;
+          margin-top: 8px;
+          font-weight: normal; }
+          main .wrap .main_center .txt #ourProducts .op_detail > .gift > a a:hover {
+            color: #fa5400; }
+        main .wrap .main_center .txt #ourProducts .op_detail #price {
+          position: absolute;
+          color: #FA5400;
+          right: 20px;
+          top: 32px; }
+          main .wrap .main_center .txt #ourProducts .op_detail #price span {
+            color: #FA5400; }
+  main .wrap .main_center .count_infor {
+    width: 300px;
+    height: 767px;
+    float: right;
+    border-bottom: 1px solid #ddd; }
+    main .wrap .main_center .count_infor .c_box {
+      width: 300px;
+      height: 399px;
+      background: #191919;
+      margin-bottom: 20px;
+      overflow: hidden; }
+      main .wrap .main_center .count_infor .c_box p {
+        color: white;
+        width: 262px;
+        margin: 0 auto; }
+      main .wrap .main_center .count_infor .c_box p:first-child {
+        height: 48px;
+        font-size: 19px;
+        margin-top: 22px; }
+      main .wrap .main_center .count_infor .c_box p:nth-child(2) {
+        height: 91px;
+        overflow: hidden; }
+        main .wrap .main_center .count_infor .c_box p:nth-child(2) span {
+          font-size: 12px;
+          display: block;
+          margin-bottom: 11px;
+          margin-top: 20px; }
+        main .wrap .main_center .count_infor .c_box p:nth-child(2) span:after {
+          content: "?";
+          position: absolute;
+          text-align: center;
+          line-height: 14px;
+          width: 14px;
+          height: 14px;
+          background: #fd5300;
+          color: white;
+          border-radius: 50%;
+          margin-left: 20px;
+          margin-top: 2px; }
+        main .wrap .main_center .count_infor .c_box p:nth-child(2) input:nth-child(2) {
+          width: 158px;
+          height: 30px;
+          border-radius: 3px;
+          margin-right: 6px; }
+        main .wrap .main_center .count_infor .c_box p:nth-child(2) input:nth-child(3) {
+          width: 86px;
+          height: 30px;
+          border-radius: 3px;
+          background: #8d8d8d;
+          color: #ddd;
+          cursor: pointer; }
+      main .wrap .main_center .count_infor .c_box p:nth-child(3) {
+        height: 52px;
+        line-height: 52px;
+        font-size: 12px; }
+        main .wrap .main_center .count_infor .c_box p:nth-child(3) i {
+          margin-right: 130px; }
+        main .wrap .main_center .count_infor .c_box p:nth-child(3) i:after {
+          content: "?";
+          position: absolute;
+          text-align: center;
+          line-height: 14px;
+          width: 14px;
+          height: 14px;
+          background: #fd5300;
+          color: white;
+          border-radius: 50%;
+          margin-left: 8px;
+          margin-top: 18px; }
+        main .wrap .main_center .count_infor .c_box p:nth-child(3) span:nth-child(2) {
+          font-size: 14px; }
+      main .wrap .main_center .count_infor .c_box p:nth-child(4) {
+        height: 50px;
+        font-size: 12px;
+        line-height: 50px; }
+        main .wrap .main_center .count_infor .c_box p:nth-child(4) i {
+          margin-right: 130px; }
+        main .wrap .main_center .count_infor .c_box p:nth-child(4) span:nth-child(2) {
+          font-size: 14px; }
+      main .wrap .main_center .count_infor .c_box p:nth-child(5) {
+        height: 58px;
+        font-size: 19px;
+        line-height: 58px;
+        margin-bottom: 20px; }
+        main .wrap .main_center .count_infor .c_box p:nth-child(5) i {
+          margin-right: 114px; }
+        main .wrap .main_center .count_infor .c_box p:nth-child(5) span:nth-child(2) {
+          font-size: 14px; }
+      main .wrap .main_center .count_infor .c_box #c_sub {
+        width: 262px;
+        height: 40px;
+        background: #8d8d8d;
+        color: #ddd;
+        border-radius: 3px;
+        margin-left: 20px;
+        cursor: pointer; }
+    main .wrap .main_center .count_infor .c_send {
+      width: 300px;
+      height: 118px;
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+      overflow: hidden; }
+      main .wrap .main_center .count_infor .c_send p:first-child {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 25px;
+        margin-bottom: 21px; }
+      main .wrap .main_center .count_infor .c_send p:nth-child(2) {
+        font-size: 11px;
+        margin-left: 20px; }
+    main .wrap .main_center .count_infor .c_help {
+      widht: 280px;
+      height: 211px;
+      border: 1px solid #ddd;
+      padding-left: 20px;
+      overflow: hidden; }
+      main .wrap .main_center .count_infor .c_help p {
+        height: 24px;
+        font-size: 12px; }
+        main .wrap .main_center .count_infor .c_help p a {
+          color: #666666;
+          text-decoration: underline; }
+        main .wrap .main_center .count_infor .c_help p a:hover {
+          color: black; }
+      main .wrap .main_center .count_infor .c_help p:first-child {
+        height: 63px;
+        line-height: 63px;
+        font-size: 18px; }
+      main .wrap .main_center .count_infor .c_help p:last-child {
+        margin-top: 10px; }
+
+main .wrap .main_bottom {
+  width: 961px;
+  height: 487px;
+  margin: 0 auto; }
+  main .wrap .main_bottom h1 {
+    width: 230px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 38px;
+    font-weight: bold; }
+  main .wrap .main_bottom dl {
+    width: 240px;
+    height: 324px;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 30px;
+    float: left; }
+    main .wrap .main_bottom dl a {
+      display: block;
+      width: 226px;
+      height: 300px; }
+      main .wrap .main_bottom dl a dt {
+        width: 220px;
+        height: 220px;
+        margin-bottom: 17px; }
+        main .wrap .main_bottom dl a dt img {
+          width: 220px;
+          height: 220px; }
+      main .wrap .main_bottom dl a dd p {
+        font-size: 12px; }
+      main .wrap .main_bottom dl a dd .ff {
+        font-weight: bold; }
+      main .wrap .main_bottom dl a dd .ww {
+        color: #666666; }
+      main .wrap .main_bottom dl a dd p:first-child {
+        margin-bottom: 6px; }
+  main .wrap .main_bottom dl:hover {
+    border: 1px solid #ddd; }
+
+footer {
+  width: 100%;
+  height: 298px;
+  background: #191919; }
+
+footer .wrap {
+  width: 945px;
+  height: 316px;
+  margin: 0 auto; }
+  footer .wrap .contact {
+    width: 945px;
+    height: 259px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden; }
+    footer .wrap .contact ul {
+      margin-top: 48px;
+      float: left; }
+      footer .wrap .contact ul li {
+        width: 76px;
+        line-height: 26px;
+        font-size: 12px;
+        margin-right: 85px; }
+        footer .wrap .contact ul li a {
+          color: #999999; }
+      footer .wrap .contact ul li:hover a {
+        color: white; }
+    footer .wrap .contact ul:first-child li a {
+      color: white; }
+    footer .wrap .contact ul:first-child li:hover a {
+      color: #ddd; }
+    footer .wrap .contact ul:nth-child(2) li:first-child a {
+      color: white; }
+    footer .wrap .contact ul:nth-child(2) li:first-child:hover a {
+      color: #ddd; }
+    footer .wrap .contact .icon {
+      width: 237px;
+      height: 191px;
+      float: right;
+      margin-top: 48px;
+      position: relative; }
+      footer .wrap .contact .icon p:first-child {
+        height: 12px;
+        font-size: 12px;
+        color: white;
+        margin-left: 186px;
+        margin-bottom: 12px; }
+      footer .wrap .contact .icon .icon_pic {
+        width: 237px;
+        height: 23px;
+        margin-bottom: 22px; }
+        footer .wrap .contact .icon .icon_pic img {
+          float: left;
+          padding-right: 2px; }
+      footer .wrap .contact .icon p:nth-child(3) {
+        font-size: 12px;
+        color: white;
+        margin-left: 161px; }
+      footer .wrap .contact .icon div:nth-child(4) {
+        width: 64px;
+        height: 64px;
+        position: absolute;
+        bottom: 0;
+        right: 0; }
+  footer .wrap .links {
+    width: 945px;
+    height: 38px;
+    display: flex;
+    align-items: center; }
+    footer .wrap .links dl {
+      width: 228px;
+      float: left;
+      font-size: 11px;
+      margin-right: 429px; }
+      footer .wrap .links dl dt {
+        float: left;
+        margin-top: 2px; }
+      footer .wrap .links dl dd {
+        float: left;
+        color: white;
+        margin-left: 8px; }
+        footer .wrap .links dl dd > span {
+          color: #444444;
+          margin-left: 8px; }
+    footer .wrap .links ul {
+      float: left;
+      font-size: 11px; }
+      footer .wrap .links ul li {
+        float: left;
+        margin-right: 18px; }
+        footer .wrap .links ul li a {
+          color: #444444; }
+      footer .wrap .links ul li:nth-child(6) a {
+        position: relative; }
+        footer .wrap .links ul li:nth-child(6) a span {
+          position: absolute;
+          left: -14px; }
+          footer .wrap .links ul li:nth-child(6) a span img {
+            width: 12px;
+            height: 12px; }
+      footer .wrap .links ul li:last-child {
+        margin-right: 0; }
+        footer .wrap .links ul li:last-child a {
+          position: relative; }
+          footer .wrap .links ul li:last-child a span {
+            position: absolute;
+            left: -15px; }
+            footer .wrap .links ul li:last-child a span img {
+              width: 12px;
+              height: 12px; }
+      footer .wrap .links ul li:hover a {
+        color: white; }

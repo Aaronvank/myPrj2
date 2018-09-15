@@ -1,0 +1,10 @@
+require(['config'],function(){
+	require(["jquery","cookie"],function($,cookie){
+		$(function(){
+			//物品数量操作
+			$(".minus").on("click",function(){
+				$(this).css("opacity","1");
+			})
+		})
+	})
+})

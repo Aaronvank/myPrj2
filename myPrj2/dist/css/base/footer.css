@@ -1,0 +1,94 @@
+footer {
+  width: 100%;
+  height: 278px;
+  background: #191919; }
+
+footer .wrap {
+  width: 945px;
+  height: 278px;
+  margin: 0 auto; }
+  footer .wrap .contact {
+    width: 945px;
+    height: 239px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden; }
+    footer .wrap .contact ul {
+      margin-top: 48px;
+      float: left; }
+      footer .wrap .contact ul li {
+        width: 76px;
+        line-height: 26px;
+        font-size: 12px;
+        margin-right: 85px; }
+        footer .wrap .contact ul li a {
+          color: #999999; }
+      footer .wrap .contact ul li:hover a {
+        color: white; }
+    footer .wrap .contact .icon {
+      width: 70px;
+      height: 32px;
+      float: right;
+      margin-top: 48px; }
+      footer .wrap .contact .icon .kk {
+        font-size: 25px !important;
+        color: #444444; }
+      footer .wrap .contact .icon .kk:hover {
+        color: white; }
+      footer .wrap .contact .icon i:first-child {
+        position: relative;
+        cursor: pointer; }
+        footer .wrap .contact .icon i:first-child .ewm_pic {
+          position: absolute;
+          left: -133px;
+          top: 0;
+          display: none; }
+      footer .wrap .contact .icon i:first-child:hover span {
+        display: block; }
+  footer .wrap .links {
+    width: 945px;
+    height: 38px;
+    display: flex;
+    align-items: center; }
+    footer .wrap .links dl {
+      width: 228px;
+      float: left;
+      font-size: 11px;
+      margin-right: 128px; }
+      footer .wrap .links dl dt {
+        float: left;
+        margin-top: 2px; }
+      footer .wrap .links dl dd {
+        float: left;
+        color: white;
+        margin-left: 8px; }
+        footer .wrap .links dl dd > span {
+          color: #444444;
+          margin-left: 8px; }
+    footer .wrap .links ul {
+      float: left;
+      font-size: 11px; }
+      footer .wrap .links ul li {
+        float: left;
+        margin-right: 18px; }
+        footer .wrap .links ul li a {
+          color: #444444; }
+      footer .wrap .links ul li:nth-child(6) a {
+        position: relative; }
+        footer .wrap .links ul li:nth-child(6) a span {
+          position: absolute;
+          left: -14px; }
+          footer .wrap .links ul li:nth-child(6) a span img {
+            width: 12px;
+            height: 12px; }
+      footer .wrap .links ul li:last-child {
+        margin-right: 0; }
+        footer .wrap .links ul li:last-child a {
+          position: relative; }
+          footer .wrap .links ul li:last-child a span {
+            position: absolute;
+            left: -15px; }
+            footer .wrap .links ul li:last-child a span img {
+              width: 12px;
+              height: 12px; }
+      footer .wrap .links ul li:hover a {
+        color: white; }
